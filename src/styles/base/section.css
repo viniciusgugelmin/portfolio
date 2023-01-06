@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+    section {
+        @apply min-h-screen h-auto flex flex-col justify-center;
+    }
+}

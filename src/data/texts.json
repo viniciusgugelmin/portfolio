@@ -1,0 +1,66 @@
+{
+  "about-nav": {
+    "pt": "Sobre",
+    "en": "About"
+  },
+  "skills-nav": {
+    "pt": "Conhecimento",
+    "en": "Skills"
+  },
+  "work-nav": {
+    "pt": "Experiência",
+    "en": "Work"
+  },
+  "education-nav": {
+    "pt": "Formação",
+    "en": "Education"
+  },
+  "projects-nav": {
+    "pt": "Projetos",
+    "en": "Projects"
+  },
+  "contact-nav": {
+    "pt": "Contato",
+    "en": "Contact"
+  },
+  "intro": {
+    "pt": "Olá, mundo!",
+    "en": "Hello, world!"
+  },
+  "intro-text": {
+    "pt": "Meu nome é Vinícius, mas",
+    "en": "My name is Vinícius, but"
+  },
+  "intro-text-2": {
+    "pt": "pode me chamar de Vini.",
+    "en": "you can call me Vini."
+  },
+  "intro-text-3": {
+    "pt": "Sou Engenheiro de Software, e atualmente estou trabalhando como Tutor de Desenvolvimento Full Stack e terminando meu Bacharelado em Sistemas de Informação.",
+    "en": "I'm a Software Engineer, and currently working as a Full Stack Development Tutor and finishing my Bachelor's Degree in Information Systems."
+  },
+  "about": {
+    "pt": "<p>Sempre fui fascinado por tecnologia e inovação, desde os 8 anos já sabia usar o computador e queria aprender coisas novas constantemente. Aos 12 anos comecei a fazer pequenos projetos no Photoshop, Cinema 4D e After Effects, e então decidi que queria trabalhar na área de TI.</p><p> No Ensino Médio integrado com Técnico em Informática, comecei a programar e fazer códigos no arduino e aplicações, e foi aí que percebi que era minha paixão. Comecei a procurar estágios na área, e rapidamente encontrei um emprego onde comecei como Instrutor de Informática em uma rede de empresas que fornecem cursos de diversos tipos, <a href='https://seducinfo.com.br/' target='_blank'><strong>Seduc</strong></a>.</p><p> Tentando focar mais na programação, comecei a trabalhar em uma startup cujo principal projeto era uma rede social cristã, <a href='https://post.com.br/' target='_blank'><strong>Post</strong></a>, onde desenvolvi minhas hard skills, aprendi boas práticas de programação, novas tecnologias e tive a oportunidade de desenvolver grandes ferramentas para o projeto <a href='https://www.preacherpost.com/' target='_blank'><strong>(Preacherpost)</strong></a>.</p><p> Após algum tempo, quando comecei minha graduação em Sistemas de Informação, senti a falta de algo mais em minha carreira, então decidi me dedicar a encontrar outro emprego para conciliar com a Post no meio da pandemia da Covid, então ingressei na <a href='https://betabit.com.br/' target='_blank'><strong>Betabit</strong></a>, lugar onde aprendi ainda mais e tive a oportunidade de liderar projetos e deixar minha marca. Ainda tenho um longo caminho pela frente, mas não há desafio que eu não esteja disposto a enfrentar para melhorar...</p><p>Atualmente estou totalmente dedicado a melhorar a educação do Brasil na <a href='https://www.driven.com.br/' target='_blank'><strong>Driven</strong></a>, e mudando stacks de programação para expandir meus conhecimentos como Engenheiro de Software.</p>",
+    "en": "<p>I have always been fascinated by technology and innovation, since I was 8 I already knew how to use the computer and I wanted to constantly learn new things. At 12 I started doing small projects at Photoshop, Cinema 4D and After Effects, and then I decided that I would like to work in the IT area.</p><p> At High School integrated with Computer Technician, I started programming, and making arduino codes and applications that I realized was my passion. I started looking for internships in the area, and I quickly found a job where I started as a Computer Instructor in a network of companies that provide courses of different types, <a href='https://seducinfo.com.br/' target='_blank'><strong>Seduc</strong></a>.</p><p> Trying to focus more on programming, I started working at a startup whose main project was a Christian social network, <a href='https://post.com.br/' target='_blank'><strong>Post</strong></a>, where I developed my hard skills, learned good programming practices, new technologies and had the opportunity to develop great tools for the project <a href='https://www.preacherpost.com/' target='_blank'><strong>(Preacherpost)</strong></a>.</p><p> After some time, when I started my Bachelor's degree in Information Systems, I felt the lack of something more in my career, so I decided to dedicate myself to finding another job to reconcile with Post in the middle of the Covid pandemic, then joining <a href='https://betabit.com.br/' target='_blank'><strong>Betabit</strong></a>, place where I learned even more and had the opportunity to lead projects and leave my mark. I still have a long way to go, but there's no challenge that I'm not willing to take on to improve...</p><p>I'm currently completely dedicated to improving Brazil's education at <a href='https://www.driven.com.br/' target='_blank'><strong>Driven</strong></a>, and changing programming stacks to expand my knowledge as a Software Engineer.</p>"
+  },
+  "see-more": {
+    "pt": "Ver mais",
+    "en": "See more"
+  },
+  "see-less": {
+    "pt": "Ver menos",
+    "en": "See less"
+  },
+  "years": {
+    "pt": "anos",
+    "en": "years"
+  },
+  "developing": {
+    "pt": "Desenvolvendo",
+    "en": "Developing"
+  },
+  "skills": {
+    "pt": "Aqui estão algumas das tecnologias com as quais já trabalhei",
+    "en": "Here are some of the technologies I've already worked with"
+  }
+}

@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://github.com/viniciusgugelmin/portfolio">
+    <img src="readme.png" alt="readme-logo" width="80" height="80">
+  </a>
 
-## Getting Started
+  <h3 align="center">
+    portfolio
+  </h3>
+  <p align="center">
+    <img src="https://img.shields.io/badge/author-viniciusgugelmin-1E90FF?style=flat-square" />
+    <img src="https://img.shields.io/github/languages/count/viniciusgugelmin/portfolio?color=1E90FF&style=flat-square" />
+  </p>
+  <p align="center">
+    <a href="https://github.com/viniciusgugelmin/portfolio/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/viniciusgugelmin/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/viniciusgugelmin/portfolio/issues">Server Feature</a>
+  </p>
+</p>
 
-First, run the development server:
+<details open="open">
+  <summary><h2 style="display: inline-block">📜 Abstract</h2></summary>
+
+- [About The Project](#about-the-project)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+</details>
+
+<a name="about-the-project"></a>
+
+## 📋 About The Project
+
+API using Solid.
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Nextjs](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+<a name="usage"></a>
+
+## 🏁 Usage
+
+Clone the repository and go to the root directory
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/viniciusgugelmin/portfolio
+
+$ cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the application:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+$ npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<a name="contributing"></a>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 💻 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Any contributions you make are **greatly appreciated**.
 
-## Learn More
+1. Clone the Project
+2. Create your Feature Branch (`git checkout -b feature/<featureName>`)
+3. Commit your Changes (`git commit -m '<Description of the feature added>'`)
+4. Push to the Branch (`git push origin feature/<featureName>`)
+5. Open a Pull Server
 
-To learn more about Next.js, take a look at the following resources:
+<a href="https://github.com/viniciusgugelmin/portfolio/blob/master/docs/commits-standard.png">
+Click here to see the commit/branch name standard
+</a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a name="contact"></a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📧 Contact
 
-## Deploy on Vercel
+Vinícius Kruchelski Gugelmin - vinigugelmin@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: [https://github.com/viniciusgugelmin/portfolio](https://github.com/viniciusgugelmin/portfolio)

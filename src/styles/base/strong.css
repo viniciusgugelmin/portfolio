@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+    strong {
+        @apply font-bold text-accent-3 dark:text-accent-5 relative after:block after:absolute after:-inset-1 after:-skew-y-3 after:bg-accent-3-200 dark:after:bg-accent-5-200 after:-z-10 after:w-0 after:hover:w-full-2 after:opacity-0 after:hover:opacity-100 after:transition-all after:duration-300 after:ease-in-out;
+    }
+}

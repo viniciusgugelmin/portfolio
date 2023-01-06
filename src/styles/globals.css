@@ -1,0 +1,16 @@
+@import "components/transition.css";
+@import "components/link.css";
+@import "components/path.css";
+@import "components/button.css";
+@import "components/cursor.css";
+@import "components/shortly.css";
+@import "components/swiper.css";
+@import "base/html.css";
+@import "base/scroll.css";
+@import "base/svg.css";
+@import "base/strong.css";
+@import "base/section.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

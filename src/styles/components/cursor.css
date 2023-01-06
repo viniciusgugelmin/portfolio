@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .blinking-cursor:after {
+        content: '|';
+        @apply text-accent-3 dark:text-accent-5;
+        animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .vkg-link {
+        @apply hover:text-accent-3-500 text-accent-3 children:!stroke-accent-3 dark:text-accent-5 dark:children:!stroke-accent-5 dark:hover:text-accent-5-500 transition-colors duration-300 ease-in-out;
+    }
+}

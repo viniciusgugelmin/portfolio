@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .vkg-transition-sm {
+        @apply !duration-200 !ease-in-out;
+    }
+
+    .vkg-transition {
+        @apply !duration-300 !ease-in-out;
+    }
+
+    .vkg-transition-lg {
+        @apply !duration-500 !ease-in-out;
+    }
+
+    .vkg-transition-xl {
+        @apply !duration-700 !ease-in-out;
+    }
+
+    .vkg-transition-2xl {
+        @apply !duration-1000 !ease-in-out;
+    }
+}

@@ -1,0 +1,17 @@
+@tailwind components;
+
+.swiper {
+    @apply max-w-xs md:max-w-sm cursor-grab active:cursor-grabbing relative before:absolute before:-left-2 before:top-0 before:h-full before:w-9 before:bg-gradient-to-l before:from-transparent before:to-accent-6 dark:before:to-accent-1 before:z-10 after:absolute after:-right-2 after:top-0 after:h-full after:w-9 after:bg-gradient-to-r after:from-transparent after:to-accent-6 dark:after:to-accent-1 after:z-10;
+}
+
+.swiper .swiper-wrapper {
+    @apply pb-14;
+}
+
+.swiper .swiper-wrapper + .swiper-pagination {
+    @apply bottom-0;
+}
+
+.swiper .swiper-wrapper + .swiper-pagination .swiper-pagination-bullet {
+    @apply bg-accent-3-800 dark:bg-accent-4-800;
+}
