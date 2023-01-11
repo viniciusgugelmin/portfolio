@@ -30,14 +30,16 @@ function AboutSection(): JSX.Element {
         </h1>
         {hr}
       </div>
-      <Shortly
-        isStarted={isStarted}
-        setIsStarted={setIsStarted}
-        open={open}
-        setOpen={setOpen}
-      >
-        {toHtml.handle({ text: texts["about"][language] })}
-      </Shortly>
+      <div className="text-justify">
+        <Shortly
+          isStarted={isStarted}
+          setIsStarted={setIsStarted}
+          open={open}
+          setOpen={setOpen}
+        >
+          {toHtml.handle({ text: texts["about"][language] })}
+        </Shortly>
+      </div>
     </>
   );
 }

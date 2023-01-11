@@ -1,10 +1,11 @@
 namespace ToHtmlDTO {
   export interface IToHtml {
-    handle: ({ text }: HandleDTO) => JSX.Element;
+    handle: ({ text, className }: HandleDTO) => JSX.Element;
   }
 
   export type HandleDTO = {
     text: string;
+    className?: string;
   };
 }
 

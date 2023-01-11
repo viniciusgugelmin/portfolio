@@ -8,7 +8,7 @@ type SkillDTO = {
 const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   {
     name: "HTML",
-    level: 5,
+    level: 9,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -21,7 +21,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "CSS",
-    level: 5,
+    level: 9,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -34,22 +34,22 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "SASS",
-    level: 4,
+    level: 9,
     type: "frontend",
   },
   {
     name: "JavaScript",
-    level: 5,
+    level: 8,
     type: "frontend",
   },
   {
     name: "React",
-    level: 4,
+    level: 8,
     type: "frontend",
   },
   {
     name: "Vue",
-    level: 4,
+    level: 7,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
@@ -62,7 +62,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Angular",
-    level: 3,
+    level: 6,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
@@ -75,12 +75,12 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "JQuery",
-    level: 4,
+    level: 8,
     type: "frontend",
   },
   {
     name: "Next.js",
-    level: 3,
+    level: 6,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
@@ -93,12 +93,12 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "TypeScript",
-    level: 4,
+    level: 8,
     type: "other",
   },
   {
     name: "Node.js",
-    level: 4,
+    level: 8,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -111,7 +111,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Prisma",
-    level: 3,
+    level: 8,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg"
@@ -124,12 +124,12 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "PHP",
-    level: 4,
+    level: 7,
     type: "backend",
   },
   {
     name: "Laravel",
-    level: 5,
+    level: 8,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
@@ -142,7 +142,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "C#",
-    level: 1,
+    level: 4,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
@@ -155,37 +155,47 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Java",
-    level: 2,
+    level: 5,
     type: "backend",
   },
   {
     name: "Spring",
-    level: 1,
+    level: 2,
     type: "backend",
   },
   {
+    name: "Dart",
+    level: 4,
+    type: "other",
+  },
+  {
+    name: "Flutter",
+    level: 5,
+    type: "other",
+  },
+  {
     name: "Python",
-    level: 3,
+    level: 7,
     type: "backend",
   },
   {
     name: "MySQL",
-    level: 3,
+    level: 7,
     type: "database",
   },
   {
     name: "PostgreSQL",
-    level: 3,
+    level: 7,
     type: "database",
   },
   {
     name: "MongoDB",
-    level: 4,
+    level: 8,
     type: "database",
   },
   {
     name: "Jest",
-    level: 3,
+    level: 7,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
@@ -198,7 +208,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Cypress",
-    level: 2,
+    level: 6,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg"
@@ -211,17 +221,17 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Git",
-    level: 5,
+    level: 9,
     type: "other",
   },
   {
     name: "Docker",
-    level: 3,
+    level: 7,
     type: "other",
   },
   {
     name: "Github Actions",
-    level: 3,
+    level: 6,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -234,7 +244,7 @@ const skills = ({ iconWidth, iconHeight }: SkillDTO) => [
   },
   {
     name: "Digital Ocean",
-    level: 3,
+    level: 5,
     icon: (
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg"

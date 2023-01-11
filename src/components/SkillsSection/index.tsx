@@ -35,10 +35,10 @@ function SkillsSection(): JSX.Element {
         </div>
         <Swiper
           slidesPerView={isLarge ? 4 : isMedium ? 3 : 2}
-          autoplay={true}
           grid={{ rows: isLarge ? 4 : 5, fill: "row" }}
           pagination={{
             clickable: true,
+            dynamicBullets: true,
           }}
           simulateTouch={true}
           spaceBetween={20}
@@ -68,7 +68,7 @@ function SkillsSection(): JSX.Element {
                     <div className="relative pt-1">
                       <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-accent-3-300 dark:bg-accent-4-100">
                         <div
-                          style={{ width: `${skill.level * 20}%` }}
+                          style={{ width: `${skill.level * 10}%` }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-accent-3-700 dark:bg-accent-4-500"
                         ></div>
                       </div>

@@ -9,6 +9,7 @@ function Header(): JSX.Element {
   const [isScrollingDown, setIsScrollingDown] = useState(false);
   const [isStart, setIsStart] = useState(true);
   const [hasStarted, setHasStarted] = useState(false);
+  const [forceShow, setForceShow] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,6 +21,15 @@ function Header(): JSX.Element {
 
     function handleScroll() {
       const position = window.pageYOffset;
+
+      if (forceShow) {
+        setIsScrollingUp(true);
+        setIsScrollingDown(false);
+        setIsStart(false);
+        setScrollPosition(position);
+        return;
+      }
+
       setIsScrollingUp(position < scrollPosition);
       setIsScrollingDown(position > scrollPosition);
       setIsStart(position < 30);
@@ -45,7 +55,7 @@ function Header(): JSX.Element {
       >
         <ThemeSwitcher />
         <LanguageSwitcher className="grow ml-2.5 mr-1.5 md:ml-5" />
-        <Nav />
+        <Nav setForceShowHeader={setForceShow} />
       </header>
     </>
   );

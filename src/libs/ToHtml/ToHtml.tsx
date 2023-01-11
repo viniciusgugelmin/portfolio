@@ -2,8 +2,8 @@ import { Interweave } from "interweave";
 import { ToHtmlDTO } from "./ToHtmlDTO";
 
 class ToHtml implements ToHtmlDTO.IToHtml {
-  public handle({ text }: ToHtmlDTO.HandleDTO): JSX.Element {
-    return <Interweave content={text} />;
+  public handle({ text, className = "" }: ToHtmlDTO.HandleDTO): JSX.Element {
+    return <Interweave content={text} className={className} />;
   }
 }
 

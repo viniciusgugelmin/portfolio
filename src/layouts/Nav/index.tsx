@@ -4,11 +4,42 @@ import { useLanguageContext } from "../../context/Language";
 import { scrollTo } from "../../utils/scrollTo";
 import { useWindowSizeContext } from "../../context/WindowSize";
 import { navOptions } from "../../data/navOptions";
+import { PropsWithChildren, useState } from "react";
+import { delay } from "../../utils/delay";
 
-function Nav(): JSX.Element {
+interface NavProps extends PropsWithChildren {
+  setForceShowHeader: (value: boolean) => void;
+}
+
+function Nav({ setForceShowHeader }: NavProps): JSX.Element {
   const { language } = useLanguageContext();
   const { isSmall } = useWindowSizeContext();
+  const [isScrolling, setIsScrolling] = useState(false);
   const baseKey = "nav";
+
+  function handleScrollTo(elementId: string, targetId: string) {
+    if (isScrolling) return;
+
+    setIsScrolling(true);
+    setForceShowHeader(true);
+    const timeout = scrollTo({
+      elementId,
+      targetId,
+    });
+
+    if (typeof timeout !== "number") {
+      setIsScrolling(false);
+      setForceShowHeader(false);
+      return;
+    }
+
+    delay({
+      ms: timeout + 500,
+    }).then(() => {
+      setIsScrolling(false);
+      setForceShowHeader(false);
+    });
+  }
 
   return (
     <nav className="flex-1 self-center max-w-sml">
@@ -29,10 +60,10 @@ function Nav(): JSX.Element {
             >
               <button
                 onClick={() =>
-                  scrollTo({
-                    elementId: `${optionTextCleaned}-nav`,
-                    targetId: `${optionTextCleaned}`,
-                  })
+                  handleScrollTo(
+                    `${optionTextCleaned}-nav`,
+                    `${optionTextCleaned}`
+                  )
                 }
               >
                 {isSmall ? (icon as JSX.Element) : optionText}

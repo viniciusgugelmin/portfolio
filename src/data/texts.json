@@ -60,7 +60,59 @@
     "en": "Developing"
   },
   "skills": {
-    "pt": "Aqui estão algumas das tecnologias com as quais já trabalhei",
-    "en": "Here are some of the technologies I've already worked with"
+    "pt": "Aqui estão algumas das tecnologias com as quais já trabalhei e o nível de experiência que tenho com cada uma delas",
+    "en": "Here are some of the technologies I've already worked with and the level of experience I have with each one of them"
+  },
+  "computing-instructor": {
+    "pt": "Instrutor de informática",
+    "en": "Computing instructor"
+  },
+  "full-stack-developer-jr": {
+    "pt": "Desenvolvedor Full Stack Jr",
+    "en": "Full Stack Developer Jr"
+  },
+  "qa-developer": {
+    "pt": "Desenvolvedor QA",
+    "en": "QA Developer"
+  },
+  "full-stack-development-tutor": {
+    "pt": "Tutor de Desenvolvimento Full Stack",
+    "en": "Full Stack Development Tutor"
+  },
+  "seduc-role-description": {
+    "pt": "<ul><li>Atendimento ao cliente</li><li>Treinamento de novos instrutores</li><li>Manutenção de computadores</li><li>Assistência de alunos em seus determinados cursos</li></ul>",
+    "en": "<ul><li>Customer service</li><li>Training of new instructors</li><li>Computer maintenance</li><li>Assistance of students in their respective courses</li></ul>"
+  },
+  "post-ed-role-description": {
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Ponto de vista em decisões</li><li>Aprimoramento de códigos HTML, CSS, JavaScript e PHP</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Point of view in decisions</li><li>Improvement of HTML, CSS, JavaScript and PHP codes</li></ul>"
+  },
+  "post-ed-role-2-description": {
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Ponto de vista em decisões</li><li>Aprimoramento de códigos HTML, CSS, JavaScript e PHP</li><li>evisão de código</li><li>Elaboração de textos para redes sociais</li><li>Criação de novas funcionalidades</li><li>Criação de páginas de layout</li><li>Criação de projetos Vue.js e Laravel</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Point of view in decisions</li><li>Improvement of HTML, CSS, JavaScript and PHP codes</li><li>Code review</li><li>Preparation of texts for social networks</li><li>Creation of new features</li><li>Creation of layout pages</li><li>Creation of Vue.js and Laravel projects</li></ul>"
+  },
+  "betabit-role-description": {
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Criação de novas funcionalidades</li><li>Criação de projetos</li><li>Diálogo com clientes</li><li>Desenvolvimento de n-projetos para n-clientes ao mesmo tempo</li><li>Metodologia ágil</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Creation of new features</li><li>Creation of projects</li><li>Dialogue with customers</li><li>Development of n-projects for n-customers at the same time</li><li>Agile methodology</li></ul>"
+  },
+  "betabit-role-2-description": {
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Criação de novas funcionalidades</li><li>Criação de projetos</li><li>Diálogo com clientes</li><li>Desenvolvimento de n-projetos para n-clientes ao mesmo tempo</li><li>Metodologia ágil</li><li>Desenvolvimento de testes automatizados</li><li>Desenvolvimento de testes manuais</li><li>Code review</li><li>Code feedback</li><li>Code help</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Creation of new features</li><li>Creation of projects</li><li>Dialogue with customers</li><li>Development of n-projects for n-customers at the same time</li><li>Agile methodology</li><li>Development of automated tests</li><li>Development of manual tests</li><li>Code review</li><li>Code feedback</li><li>Code help</li></ul>"
+  },
+  "driven-education-role-description": {
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Code review</li><li>Code help</li><li>Assistência de alunos</li><li>Preparação de aulas</li><li>Papel de Scrum Master</li><li>Papel de Product Owner</li><li>Criação de projetos React.js, Node.js, Next.js e Python</li><li>Gerenciamento da Digital Ocean</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Code review</li><li>Code help</li><li>Student assistance</li><li>Preparation of classes</li><li>Scrum Master role</li><li>Product Owner role</li><li>Creation of React.js, Node.js, Next.js and Python projects</li><li>Digital Ocean management</li></ul>"
+  },
+  "internship": {
+    "pt": "Estágio",
+    "en": "Internship"
+  },
+  "full-time": {
+    "pt": "Tempo integral",
+    "en": "Full-time"
+  },
+  "part-time": {
+    "pt": "Meio período",
+    "en": "Part-time"
   }
 }

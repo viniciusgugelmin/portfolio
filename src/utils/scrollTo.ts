@@ -4,7 +4,11 @@ type ScrollToDTO = {
   duration?: number;
 };
 
-function scrollTo({ elementId, targetId, duration = 200 }: ScrollToDTO): void {
+function scrollTo({
+  elementId,
+  targetId,
+  duration = 200,
+}: ScrollToDTO): number | void {
   const element = document.getElementById(elementId);
   const target = document.getElementById(targetId);
 
@@ -22,7 +26,10 @@ function scrollTo({ elementId, targetId, duration = 200 }: ScrollToDTO): void {
 
     setTimeout(animateScroll, increment);
   };
+
   animateScroll();
+
+  return duration;
 }
 
 type EaseInOutQuadDTO = {
