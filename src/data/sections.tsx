@@ -4,6 +4,7 @@ import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { CodingSection } from "../components/CodingSection";
 import { WorkSection } from "../components/WorkSection";
+import { EducationSection } from "../components/EducationSection";
 
 const iconClassName =
   "children:!stroke-accent-3 dark:children:!stroke-accent-4 scale-75 ml-1";
@@ -39,7 +40,7 @@ const sections = () => [
       name: "education",
       className: iconClassName,
     }),
-    content: <CodingSection />,
+    content: <EducationSection />,
   },
   {
     title: texts["projects-nav"],

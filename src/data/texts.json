@@ -100,8 +100,8 @@
     "en": "<ul><li>Problem solving (bugs)</li><li>Creation of new features</li><li>Creation of projects</li><li>Dialogue with customers</li><li>Development of n-projects for n-customers at the same time</li><li>Agile methodology</li><li>Development of automated tests</li><li>Development of manual tests</li><li>Code review</li><li>Code feedback</li><li>Code help</li></ul>"
   },
   "driven-education-role-description": {
-    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Code review</li><li>Code help</li><li>Assistência de alunos</li><li>Preparação de aulas</li><li>Papel de Scrum Master</li><li>Papel de Product Owner</li><li>Criação de projetos React.js, Node.js, Next.js e Python</li><li>Gerenciamento da Digital Ocean</li></ul>",
-    "en": "<ul><li>Problem solving (bugs)</li><li>Code review</li><li>Code help</li><li>Student assistance</li><li>Preparation of classes</li><li>Scrum Master role</li><li>Product Owner role</li><li>Creation of React.js, Node.js, Next.js and Python projects</li><li>Digital Ocean management</li></ul>"
+    "pt": "<ul><li>Resolução de problemas (bugs)</li><li>Code review</li><li>Code help</li><li>Assistência de alunos</li><li>Preparação de conteúdo extra para alunos</li><li>Papel de Scrum Master</li><li>Papel de Product Owner</li><li>Criação de projetos React.js, Node.js, Next.js e Python</li><li>Gerenciamento da Digital Ocean</li></ul>",
+    "en": "<ul><li>Problem solving (bugs)</li><li>Code review</li><li>Code help</li><li>Student assistance</li><li>Preparation of extra content for students</li><li>Scrum Master role</li><li>Product Owner role</li><li>Creation of React.js, Node.js, Next.js and Python projects</li><li>Digital Ocean management</li></ul>"
   },
   "internship": {
     "pt": "Estágio",
