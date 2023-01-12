@@ -37,7 +37,11 @@ function Nav({ setForceShowHeader }: NavProps): JSX.Element {
       ms: timeout + 500,
     }).then(() => {
       setIsScrolling(false);
-      setForceShowHeader(false);
+      delay({
+        ms: 300,
+      }).then(() => {
+        setForceShowHeader(false);
+      });
     });
   }
 
