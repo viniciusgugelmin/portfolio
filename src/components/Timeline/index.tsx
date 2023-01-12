@@ -2,6 +2,7 @@ import { removeBlankSpace } from "../../utils/removeBlankSpace";
 import { removeDiacritics } from "../../utils/removeDiacritics";
 import { useLanguageContext } from "../../context/Language";
 import { PropsWithChildren } from "react";
+import { Fade } from "react-awesome-reveal";
 
 type TimelineProps = {
   events: {
@@ -15,9 +16,11 @@ function Timeline({ events }: TimelineProps): JSX.Element {
   return (
     <ol className="border-l border-accent-3 dark:border-accent-4 mt-2">
       {events.map(({ title, icon, content }, index) => {
+        const direction = index % 2 === 0 ? "left" : "right";
+
         return (
           <TimelineWrapper key={index} title={title} icon={icon}>
-            {content}
+            <Fade direction={direction}>{content}</Fade>
           </TimelineWrapper>
         );
       })}
