@@ -10,7 +10,7 @@ function EducationSection(): JSX.Element {
   const baseKey = "studies";
 
   return (
-    <div className="flex justify-center gap-4">
+    <div className="flex justify-center gap-4 flex-wrap">
       {studies()
         .reverse()
         .map(({ name, institution, from, to }, index) => {
@@ -26,13 +26,15 @@ function EducationSection(): JSX.Element {
               data-mdb-ripple="true"
               data-mdb-ripple-radius="50"
               data-mdb-ripple-color={theme === "light" ? "blue" : "aqua"}
-              className="flex flex-col items-center gap-2 p-4 border-2 border-accent-3-500 dark:border-accent-4-500 bg-accent-3-200 dark:bg-accent-4-200 rounded-lg min-h-min dark:sepia dark:hover:sepia-0 transition-all vkg-transition hover:scale-105 relative overflow-hidden before:absolute before:top-0 before:left-0 before:bg-accent-6-700 before:blur-sm before:w-full-100p before:h-3 before:rotate-45 before:translate-x-8 hover:before:-translate-x-full before:transition-all before:vkg-transition-lg"
+              className="min-w-[250px] max-w-[250px] min-h-[172px] flex flex-col items-center gap-2 p-4 border-2 border-accent-3-500 dark:border-accent-4-500 bg-accent-3-200 dark:bg-accent-4-200 rounded-lg min-h-min dark:sepia dark:hover:sepia-0 transition-all vkg-transition hover:scale-105 relative overflow-hidden before:absolute before:top-0 before:left-0 before:bg-accent-6-700 before:blur-sm before:w-full-200p before:h-3 before:rotate-45 before:translate-x-8 hover:before:-translate-x-full hover:before:translate-y-20 before:transition-all before:vkg-transition-lg"
             >
-              <h1 className="text-lg font-bold">{name[language]}</h1>
+              <h1 className="text-lg text-center font-bold">
+                {name[language]}
+              </h1>
               <h2 className="py-0.5 px-1.5 text-xs md:text-sm leading-none text-center whitespace-nowrap align-baseline font-bold bg-accent-3-500 dark:bg-accent-5-500 text-accent-6 rounded">
                 {institution[language]}
               </h2>
-              <h3 className="text-2xl text-sm font-bold text-accent-1-500 dark:text-accent-6-500">
+              <h3 className="text-2xl text-sm text-center font-bold text-accent-1-500 dark:text-accent-6-500">
                 {from} - {to}
               </h3>
             </section>

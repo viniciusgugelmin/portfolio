@@ -21,7 +21,7 @@ function WorkSection(): JSX.Element {
         keyboard={true}
         watchSlidesProgress={true}
         pagination={{
-          dynamicBullets: isSmall,
+          dynamicBullets: true,
         }}
         dir="rtl"
         modules={[Navigation, Keyboard, Pagination]}
